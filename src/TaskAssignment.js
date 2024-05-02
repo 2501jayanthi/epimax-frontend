@@ -4,7 +4,6 @@ const TaskAssignment = ({ tasks, onUpdateTask }) => {
   const [assignedTo, setAssignedTo] = useState("");
   const [selectedTaskId, setSelectedTaskId] = useState("");
   const [assignedTask, setAssignedTask] = useState(null);
-  const [assignedUser, setAssignedUser] = useState("");
 
   const handleAssignedToChange = (e) => {
     setAssignedTo(e.target.value);
